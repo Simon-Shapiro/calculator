@@ -12,3 +12,4 @@ The array contains all button presses in the order they were clicked by the user
 -use lookaheads and lookbehinds to match number groups to their preceding and succeeding operands
 */
 
+document.getElementbyId
