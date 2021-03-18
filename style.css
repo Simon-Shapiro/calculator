@@ -2,5 +2,14 @@
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: #F2FDFF;
+    height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	background-image: url(https://img.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg?size=626&ext=jpg);
 }
 
+#calculator-body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
