@@ -12,4 +12,11 @@ The array contains all button presses in the order they were clicked by the user
 -use lookaheads and lookbehinds to match number groups to their preceding and succeeding operands
 */
 
-document.getElementbyId
+document.getElementbyId("addition").addEventListener('click', () => {
+
+    let operandOne = document.getElementById("operand-one");
+    let operandTwo = document.getElementById("operand-two");
+
+    let additionResult = Number(operandOne) + Number(operandTwo);
+    document.getElementById("result-text").innerHTML = additionResult;
+});
