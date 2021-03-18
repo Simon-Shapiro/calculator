@@ -2,16 +2,26 @@
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: #F2FDFF;
-    height: 100%;
-	padding: 0;
 	margin: 0 auto;
-	background-image: url(https://img.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg?size=626&ext=jpg);
+	/* background-image: url(https://img.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg?size=626&ext=jpg); */
 }
 
 #calculator-body {
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: repeat(4);
-    grid-template-rows: repeat(5);
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+
+/* testing css -highlights items for testing, remove when project is complete*/
+button {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+textarea {
+    background-color: purple;
+    color: #F2FDFF;
 }
